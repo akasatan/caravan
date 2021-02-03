@@ -92,7 +92,7 @@ main {
   margin-bottom: 20px;
   border-bottom: 1px solid #f7f7f7;
   display: flex;
-  justify-content: flex-start;
+  justify-content: start;
 }
 .blog-image {
   height: 180px;
@@ -199,5 +199,14 @@ footer {
 @media screen and (max-width: 425px) {
   * {
     width: 100%;
+  }
+}
+@media screen and (max-width:425px){
+  .blog-item{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f7f7f7;
+  display: block;
+  justify-content: start;
   }
 }
